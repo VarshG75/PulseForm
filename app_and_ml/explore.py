@@ -9,7 +9,7 @@ df = pd.read_csv("app_and_ml/data/PPG_Dataset.csv", header=None)
 print(f"2. Success! Pandas loaded {len(df)} patients into memory.")
 
 # Isolate Patient 1 (Row 0) and their first 1000 milliseconds of data
-patient_wave = df.iloc[0, :1000] 
+patient_wave = df.iloc[3, :1000] 
 
 print("3. Drawing the heartbeat graph...")
 
